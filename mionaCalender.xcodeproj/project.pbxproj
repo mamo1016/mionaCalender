@@ -15,6 +15,8 @@
 		04A4C852204A50E50097F905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4C850204A50E50097F905 /* LaunchScreen.storyboard */; };
 		04A4C85D204A50E50097F905 /* mionaCalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C85C204A50E50097F905 /* mionaCalenderTests.swift */; };
 		04A4C868204A50E50097F905 /* mionaCalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C867204A50E50097F905 /* mionaCalenderUITests.swift */; };
+		04A4C876204A51550097F905 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C875204A51550097F905 /* CalendarCell.swift */; };
+		04A4C878204A51A90097F905 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4C877204A51A90097F905 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04A4C863204A50E50097F905 /* mionaCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mionaCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A4C867204A50E50097F905 /* mionaCalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mionaCalenderUITests.swift; sourceTree = "<group>"; };
 		04A4C869204A50E50097F905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A4C875204A51550097F905 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		04A4C877204A51A90097F905 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				04A4C850204A50E50097F905 /* LaunchScreen.storyboard */,
 				04A4C853204A50E50097F905 /* Info.plist */,
 				04A4C84B204A50E50097F905 /* mionaCalender.xcdatamodeld */,
+				04A4C875204A51550097F905 /* CalendarCell.swift */,
+				04A4C877204A51A90097F905 /* DateManager.swift */,
 			);
 			path = mionaCalender;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A4C847204A50E40097F905 /* ViewController.swift in Sources */,
+				04A4C878204A51A90097F905 /* DateManager.swift in Sources */,
 				04A4C84D204A50E50097F905 /* mionaCalender.xcdatamodeld in Sources */,
 				04A4C845204A50E40097F905 /* AppDelegate.swift in Sources */,
+				04A4C876204A51550097F905 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
